@@ -17,4 +17,12 @@ public class demo1 {
         System.out.println("the sum of x + y = "+c);
     }
 
+    public int mul(int c){
+
+        int e,f,g;
+        
+        c = e * f;
+        
+        return c;
+        
 }
