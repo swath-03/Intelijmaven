@@ -23,7 +23,7 @@ public class demo1 {
 
         c = a + b;
 
-        System.out.println("the value in C is :"+c);
+        System.out.println("the value of a + b is  :"+c);
         return c;
     }
 
@@ -31,14 +31,23 @@ public class demo1 {
 
         c = a - b;
 
-        System.out.println("the value in C is :"+c);
+        System.out.println("the value of a - b is :"+c);
         return c;
     }
 
     public int mul(int a,int b,int c){
 
         c = a *b;
-        System.out.println("the value in C is :"+c);
+        System.out.println("the value of a * b is :"+c);
+        return c;
+    }
+
+    public int persent(int a,int b,int c){
+
+        c = (a + b)/ 100;
+
+        System.out.println("the percentage of a + b ="+c);
+
         return c;
     }
 }

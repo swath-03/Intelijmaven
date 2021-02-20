@@ -23,4 +23,11 @@ public class Test1 {
     obj2.mul(2,5,0);
 
     }
+
+    @Test
+    public void demo1test3(){
+
+        demo1 obj3 = new demo1();
+        obj3.persent(300,100,0);
+    }
 }
