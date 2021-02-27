@@ -5,8 +5,8 @@ public class Evenoddnumber {
 
 
         System.out.println("the value in the counter is :"+counter1);
-
-        for (int i = startvalue;i <= tillnum;i++)
+            int i =0;
+        for (i = startvalue;i <= tillnum;i++)
         {
             if(counter1.equals("EVEN")&(startvalue % 2==0))
             {
